@@ -10,7 +10,6 @@ const VideoPlayer = ({playState,setPlayState}) => {
         if (e.target === player.current){
             setPlayState(false);
         }
-    
     }
 
   return (
